@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.rules-container {
+  background-color: white;
+  height: 80vh;
+  width: 50vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.rules {
+  height: 350px;
+}
+
+.close {
+  align-self: flex-end;
+  margin: 20px;
+}
+
+.output-image {
+  height: 200px;
+}
+
+.won {
+  color: white;
+  font-family: 'Roboto';
+  font-weight: bold;
+}
+
+.play-again-button {
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  background-color: white;
+  color: black;
+  margin-left: 30px;
+}
